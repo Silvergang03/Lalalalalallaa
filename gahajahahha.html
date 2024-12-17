@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .content h3 {
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            flex: 1 1 calc(33.333% - 20px);
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .service h4 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bike Shop</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Your One-Stop Shop for All Things Bikes!</h2>
+    </div>
+    <div class="content">
+        <h3>Our Services</h3>
+        <div class="services">
+            <div class="service">
+                <h4>Bike Sales</h4>
+                <p>We offer a wide range of bikes for all ages and experience levels.</p>
+            </div>
+            <div class="service">
+                <h4>Repairs</h4>
+                <p>Expert repair services to keep your bike in top condition.</p>
+            </div>
+            <div class="service">
+                <h4>Accessories</h4>
+                <p>Find all the accessories you need for your cycling adventures.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bike Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
